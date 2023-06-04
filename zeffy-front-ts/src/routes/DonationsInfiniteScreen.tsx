@@ -34,6 +34,7 @@ export const DonationsInfiniteScreen = () => {
     return (
         <div>
          <Header />
+         <h1>Liste infinie des dons</h1>
          {isLoading ? <p>Loading</p> : <DonationsList donations={data}/>}
         </div>
     )

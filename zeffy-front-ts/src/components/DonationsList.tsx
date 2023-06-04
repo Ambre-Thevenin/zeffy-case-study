@@ -1,4 +1,5 @@
 import {  Donation, DonationRow } from "./DonationRow"
+import './DonationsList.css'
 
 export const DonationsList = ({ donations }: {donations?: Donation[]}) => {
     return (
