@@ -1,0 +1,16 @@
+.donationRowContainer {
+    display: "flex";
+   
+}
+.donationRowCell {
+
+}
+.donationAmount {
+    font-weight: bold;
+    color: black;
+}
+
+.donationDetails {
+    color: black;
+    text-align: right;
+}

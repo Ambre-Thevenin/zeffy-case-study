@@ -1,0 +1,27 @@
+#root {
+    max-width: 100%;
+    margin: 0;
+}
+
+.headerContainer {
+    background-color: #0f0e5b;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+
+.navigationList {
+    margin-left: 8px;
+}
+
+p {
+    color: #FFF;
+}
