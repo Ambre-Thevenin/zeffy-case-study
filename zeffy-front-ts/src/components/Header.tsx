@@ -1,6 +1,8 @@
-import './Header.css';
-import Logo from '../assets/zeffy-logo-white.png'
 import { Link } from 'react-router-dom';
+
+import './Header.css';
+
+import Logo from '../assets/zeffy-logo-white.png'
 
 export const Header = () => {
     return (

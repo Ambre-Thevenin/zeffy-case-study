@@ -1,10 +1,10 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import './App.css'
+import './App.css';
 
-import { HomeScreen } from './routes/HomeScreen';
-import { DonationsScreen } from './routes/DonationsScreen';
 import { DonationsInfiniteScreen } from './routes/DonationsInfiniteScreen';
+import { DonationsScreen } from './routes/DonationsScreen';
+import { HomeScreen } from './routes/HomeScreen';
 
 export const App = () => {
   const router = createBrowserRouter([

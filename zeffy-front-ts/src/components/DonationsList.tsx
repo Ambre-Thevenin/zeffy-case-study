@@ -1,5 +1,7 @@
-import {  Donation, DonationRow } from "./DonationRow"
-import './DonationsList.css'
+import './DonationsList.css';
+
+import {  Donation, DonationRow } from "./DonationRow";
+
 
 export const DonationsList = ({ donations }: {donations?: Donation[]}) => {
     return (

@@ -1,7 +1,8 @@
 
+import './HomeScreen.css';
+
 import { Header } from "../components/Header"
 
-import './HomeScreen.css';
 
 export const HomeScreen = () => {
     return <div>
